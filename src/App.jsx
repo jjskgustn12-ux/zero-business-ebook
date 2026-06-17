@@ -143,11 +143,15 @@ function App() {
               <div className="method-card" style={{borderColor: 'var(--accent)'}}>
                 <h3 className="method-title" style={{color: 'var(--accent)'}}>🔥 전략 1. 저가형 상품/전자책 판매 전략</h3>
                 <p className="chapter-content" style={{fontSize:'0.9rem'}}>단건 판매를 목적으로 할 때</p>
-                <div style={{display:'flex', flexWrap:'wrap', gap:'0.5rem', alignItems:'center', justifyContent:'center'}}>
-                  <FlowCard highlight>나만의 무기 선정</FlowCard><FlowArrowRight/>
-                  <FlowCard highlight>수요 검증 (상품부터 만들지 않음)</FlowCard><FlowArrowRight/>
-                  <FlowCard highlight>수요가 확인되면 상품 제작</FlowCard><FlowArrowRight/>
-                  <FlowCard highlight>SNS 홍보 진행 (광고 안함)</FlowCard><FlowArrowRight/>
+                <div style={{display:'flex', flexDirection:'column', gap:'0.25rem', alignItems:'stretch'}}>
+                  <FlowCard highlight>나만의 무기 선정</FlowCard>
+                  <FlowArrow/>
+                  <FlowCard highlight>수요 검증 (상품부터 만들지 않음)</FlowCard>
+                  <FlowArrow/>
+                  <FlowCard highlight>수요가 확인되면 상품 제작</FlowCard>
+                  <FlowArrow/>
+                  <FlowCard highlight>SNS 홍보 진행 (광고 안함)</FlowCard>
+                  <FlowArrow/>
                   <FlowCard highlight>판매 진행</FlowCard>
                 </div>
               </div>
@@ -155,12 +159,17 @@ function App() {
               <div className="method-card" style={{borderColor: 'var(--accent)'}}>
                 <h3 className="method-title" style={{color: 'var(--accent)'}}>🔥 전략 2. 고부가가치 상품 판매 퍼널</h3>
                 <p className="chapter-content" style={{fontSize:'0.9rem'}}>1:1 코칭, 컨설팅 등 고단가 모델일 때</p>
-                <div style={{display:'flex', flexWrap:'wrap', gap:'0.5rem', alignItems:'center', justifyContent:'center'}}>
-                  <FlowCard highlight>나만의 무기 선정</FlowCard><FlowArrowRight/>
-                  <FlowCard highlight>수요 검증</FlowCard><FlowArrowRight/>
-                  <FlowCard highlight>수요가 확인되면 DB수집용 미끼 상품 및 랜딩페이지 제작</FlowCard><FlowArrowRight/>
-                  <FlowCard highlight>SNS 홍보 및 수집된 DB 고민 무료 해결</FlowCard><FlowArrowRight/>
-                  <FlowCard highlight>무료 특강 진행 및 오버딜리버리</FlowCard><FlowArrowRight/>
+                <div style={{display:'flex', flexDirection:'column', gap:'0.25rem', alignItems:'stretch'}}>
+                  <FlowCard highlight>나만의 무기 선정</FlowCard>
+                  <FlowArrow/>
+                  <FlowCard highlight>수요 검증</FlowCard>
+                  <FlowArrow/>
+                  <FlowCard highlight>수요가 확인되면 DB수집용 미끼 상품 및 랜딩페이지 제작</FlowCard>
+                  <FlowArrow/>
+                  <FlowCard highlight>SNS 홍보 및 수집된 DB 고민 무료 해결</FlowCard>
+                  <FlowArrow/>
+                  <FlowCard highlight>무료 특강 진행 및 오버딜리버리</FlowCard>
+                  <FlowArrow/>
                   <FlowCard highlight>페이스 메이커로 고단가 상품 판매</FlowCard>
                 </div>
               </div>
